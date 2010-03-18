@@ -10,13 +10,13 @@ Currently support CSV files.
 Usage:
 
 1. // app/config/routes.php
-Router::parseExtensions('csv');
+    Router::parseExtensions('csv');
 
 2. // controllers/signups_controller.php
-var $components = array('Export.Export');
+    var $components = array('Export.Export');
 
 3. // views/signups/csv/index.ctp
-Write your own, but have a look at plugins/export/views/exports/csv/simple2d.ctp
+    Write your own, but have a look at plugins/export/views/exports/csv/simple2d.ctp
 
 4. Point your browser to /signups.csv
 
